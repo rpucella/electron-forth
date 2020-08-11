@@ -1,0 +1,14 @@
+{
+    "name": "electron-forth",
+    "version": "1.0.0",
+    "main": "src/main.js",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^9.2.0",
+        "electron-packager": "^15.0.0"
+    },
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-packager . 'Electron Forth'"
+    }
+}
