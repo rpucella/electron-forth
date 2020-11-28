@@ -1,9 +1,30 @@
 # Electron Forth
 
-A simple exercise in building an Electron app - a baby forth interpreter
+A simple exercise in building an Electron app - a baby forth interpreter. 
+
+Example:
+
+    . : test + *
+    TEST
+    . 10 20 30 test
+    500
+    
 
 
-## Some links to follow:
+## To build
+
+You can run the code directly via electron using
+
+    yarn start
+    
+You can build a standalone app with electron-builder using
+
+    yarn build
+    
+It will build an app for your OS/architecture.
+
+
+## Interesting links
 
 https://www.freecodecamp.org/news/building-an-electron-application-with-create-react-app-97945861647c/
 
